@@ -1,16 +1,46 @@
-# Wi-Fi Security Project
+# Wi-Fi Security Analysis Project
+## Kali Linux Wireless Network Analysis
 
-![Kali](https://img.shields.io/badge/Kali_Linux-557C94?logo=kali-linux&logoColor=white)
+### Project Description
+This project demonstrates Wi-Fi security analysis using:
+- Python/Scapy for packet generation
+- Wireshark for traffic analysis
+- Kali Linux tools for security testing
 
-## Project Overview
-Demonstrates Wi-Fi security analysis using simulated packets.
+### Included Files
+| File | Purpose |
+|------|---------|
+| `packet_gen.py` | Generates test Wi-Fi packets |
+| `wifi_test.pcap` | Sample packet capture |
+| `security_report.md` | Security findings document |
 
-## Files
-- `packet_gen.py` - Packet generator
-- `wifi_test.pcap` - Sample capture
-- `security_report.md` - Full analysis
-
-## Usage
+### Usage Instructions
+1. Generate test data:
 ```bash
 python3 packet_gen.py
+    Analyze packets:
+
+bash
+Copy
+
 wireshark wifi_test.pcap
+
+    Review security analysis:
+
+bash
+Copy
+
+cat security_report.md
+    Analyze packets:
+
+bash
+Copy
+
+wireshark wifi_test.pcap
+
+    Review security analysis:
+
+bash
+Copy
+
+cat security_report.md
